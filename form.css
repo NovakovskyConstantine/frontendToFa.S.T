@@ -1,0 +1,24 @@
+body{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.form{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	background-color: #6FB6D3;
+	padding: 40px;
+	max-width: 400px;
+	border-radius: 8px;
+	border: 1px solid #405C68;
+}
+.form__input{
+	width: 200px;
+	padding: 12px;
+	margin: 10px;
+	border-radius: 3px;
+}
+.form__submitButton{
+	background-color: #F95F0D;
+}
